@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Adam",
+    "email": "adam@email.com",
+    "phone": "012449008",
+    "verified": true
+  },
+  {
+    "id": 1,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Baher",
+    "email": "baher@email.com",
+    "phone": "0103466854",
+    "verified": false
+  },
+  {
+    "id": 2,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Youssef",
+    "email": "youssef@email.com",
+    "phone": "0116314319",
+    "verified": true
+  },
+  {
+    "id": 3,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Daniel",
+    "email": "daniel@email.com",
+    "phone": "0106543212",
+    "verified": true
+  }
+]
