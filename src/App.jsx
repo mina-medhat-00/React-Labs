@@ -1,14 +1,28 @@
+import { BrowserRouter, Routes, Route } from "react-router";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
 import Portfolio from "./portfolio/pages/Portfolio";
 import Tasks from "./todo/pages/Tasks";
 import Users from "./users/pages/Users";
+import Movies from "./movies/pages/Movies";
+import MoviesHome from "./movies/pages/MoviesHome";
+import Favorites from "./movies/pages/Favorites";
 
 function App() {
   return (
-    <>
-      {/* <Portfolio /> */}
-      {/* <Tasks /> */}
-      {/* <Users /> */}
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<h1>Search task by url</h1>} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="tasks" element={<Tasks />} />
+        <Route path="users" element={<Users />} />
+        <Route path="movies" element={<Movies />}>
+          <Route index element={<MoviesHome />} />
+          <Route path="favorites" element={<Favorites />} />
+        </Route>
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
