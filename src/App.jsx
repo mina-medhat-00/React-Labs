@@ -1,11 +1,11 @@
-import Portfolio from "./portfolio/components/Portfolio";
-import Tasks from "./todo/components/Tasks";
-import Users from "./users/components/Users";
+import Portfolio from "./portfolio/pages/Portfolio";
+import Tasks from "./todo/pages/Tasks";
+import Users from "./users/pages/Users";
 
 function App() {
   return (
     <>
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* <Tasks /> */}
       {/* <Users /> */}
     </>

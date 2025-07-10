@@ -21,14 +21,17 @@ export default function TaskForm({ setTasks }) {
   }
 
   return (
-    <form action="submit" onSubmit={addTask}>
+    <form onSubmit={addTask} className="d-flex mb-4">
       <input
         type="text"
+        className="form-control me-2"
         value={newTask}
         onChange={handleChange}
         placeholder="Enter task..."
       />
-      <button type="submit">add</button>
+      <button type="submit" className="btn btn-primary">
+        Add
+      </button>
     </form>
   );
 }

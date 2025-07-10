@@ -4,7 +4,7 @@
     "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
     "username": "Adam",
     "email": "adam@email.com",
-    "phone": "012449008",
+    "phone": "0124490080",
     "verified": true
   },
   {
@@ -29,6 +29,54 @@
     "username": "Daniel",
     "email": "daniel@email.com",
     "phone": "0106543212",
+    "verified": true
+  },
+  {
+    "id": 4,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Sara",
+    "email": "sara@email.com",
+    "phone": "0123456789",
+    "verified": false
+  },
+  {
+    "id": 5,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Omar",
+    "email": "omar@email.com",
+    "phone": "0159876543",
+    "verified": true
+  },
+  {
+    "id": 6,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Lina",
+    "email": "lina@email.com",
+    "phone": "0112233445",
+    "verified": false
+  },
+  {
+    "id": 7,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Karim",
+    "email": "karim@email.com",
+    "phone": "0100112233",
+    "verified": true
+  },
+  {
+    "id": 8,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Nour",
+    "email": "nour@email.com",
+    "phone": "0122334455",
+    "verified": false
+  },
+  {
+    "id": 9,
+    "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?20240121032759",
+    "username": "Tarek",
+    "email": "tarek@email.com",
+    "phone": "0101010101",
     "verified": true
   }
 ]
